@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+    </style>
+
+    <style name="CalendarViewStyle" parent="android:Widget.Material.CalendarView">
+        <item name="android:dateTextAppearance">@style/CalendarViewDateText</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarViewWeekText</item>
+        <item name="android:focusedMonthDateColor">?attr/colorPrimary</item>
+        <item name="android:unfocusedMonthDateColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:weekNumberColor">?attr/colorSecondary</item>
+        <item name="android:weekSeparatorLineColor">?attr/colorOutline</item>
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="CalendarViewDateText" parent="android:TextAppearance.Material.Small">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="CalendarViewWeekText" parent="android:TextAppearance.Material.Small">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="android:colorActivatedHighlight">?attr/colorPrimary</item>
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:numbersTextColor">?attr/colorOnSurface</item>
+        <item name="android:numbersInnerTextColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:numbersSelectorColor">?attr/colorPrimary</item>
+        <item name="android:amPmTextColor">?attr/colorOnSurface</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+    </style>
+
+    <style name="Widget.App.MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorSurfaceVariant</item>
+        <item name="strokeColor">?attr/colorOutline</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+</resources>

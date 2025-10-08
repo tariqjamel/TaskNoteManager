@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoDemo" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryVariant">@color/md_theme_light_primary</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.ToDoDemo" parent="Base.Theme.ToDoDemo" />
+</resources>

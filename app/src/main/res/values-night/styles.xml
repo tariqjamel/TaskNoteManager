@@ -1,0 +1,29 @@
+<resources>
+    <style name="TimePickerTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="android:colorActivatedHighlight">?attr/colorPrimary</item>
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:numbersTextColor">?attr/colorOnSurface</item>
+        <item name="android:numbersInnerTextColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:numbersSelectorColor">?attr/colorPrimary</item>
+        <item name="android:amPmTextColor">?attr/colorOnSurface</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">?attr/colorPrimary</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+    </style>
+
+    <style name="CalendarDayText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
