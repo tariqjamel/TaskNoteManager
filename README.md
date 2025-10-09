@@ -1,4 +1,4 @@
-# Todo-app
+# Task Notes Manager app
 
 Todo app is built in android studio Kotlin, using sqlite database, data binding, job scheduler, shared prefrence.
 
